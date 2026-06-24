@@ -476,6 +476,60 @@ footer {
   font-size: 0.8rem;
 }
 
+/* Social share buttons */
+.share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-light);
+  margin-top: 8px;
+}
+
+.share-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.share-btn {
+  background: var(--background);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  padding: 0;
+  font-size: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-btn:hover {
+  background-color: var(--primary-light);
+  color: white;
+  border-color: var(--primary-light);
+}
+
+.twitter-share {
+  font-family: serif;
+  font-style: normal;
+}
+
+.facebook-share {
+  font-family: Georgia, serif;
+}
+
+.share-btn.copied {
+  background-color: var(--success);
+  color: white;
+  border-color: var(--success);
+}
+
 /* Search and Filter Components - Updated for Sidebar */
 .search-box {
   display: flex;
